@@ -1,0 +1,32 @@
+body{
+	background-color: rgb(173, 235, 235);
+}
+
+h1,h2, h3{
+	text-align: center;
+	font-family: "Arial";
+	padding: 12px 12px 12px 12px;
+}
+
+h1{
+	font-size: 45px;
+	color: rgb(173, 235, 235);;
+}
+
+h2{
+	font-size: 30px;
+}
+
+h3{
+	font-size: 22px;
+	border-top: 1px solid grey;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+}
+
+header, footer{
+	background-color: rgb(0, 153, 153);
+}
