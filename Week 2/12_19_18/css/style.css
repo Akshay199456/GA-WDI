@@ -1,0 +1,99 @@
+body{
+	margin: 100px;
+	background-color: #F7EEE5;
+	line-height: 1.6;
+}
+
+main{
+	background: url("https://media.treehugger.com/assets/images/2018/07/nature-benefits.jpg.860x0_q70_crop-scale.jpg") no-repeat center center; 
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	height: 500px;
+  	min-width: 1000px;
+}
+
+section{
+	margin: 0;
+}
+
+nav{
+	padding-top: 50px;
+}
+
+a{
+	display: inline-block;
+	margin: 1% 8% 15% 8%;
+	text-decoration: none;
+	color: black;
+
+}
+
+h1, h2, h3, a{
+	text-transform: uppercase;
+}
+
+h1, h2, h3{
+	text-align: center;
+	margin: 0;
+}
+
+div{
+	margin: 0 0 0 40px;
+	min-width: 1000px;	
+}
+
+
+section > article{
+	padding: 150px 0px; 	
+}
+
+p{
+	width: 800px;
+	margin: 0 auto;
+}
+
+.space{
+	margin: 0 auto;
+	margin-bottom: 30px;
+	width: 800px;
+}
+
+.white-background{
+	background-color: #FFFFFF;
+	height: 450px;
+  	min-width: 1000px;
+  	padding: 150px 0 0 0;
+  	margin-left: 0; 
+}
+
+.border{
+	border: 2px solid black;
+	width: 400px;
+	margin: 0 auto;
+}
+
+.beach1, .beach2, .beach3, .beach4{
+	display: inline-block;
+	margin: 2.0%;
+	height: 200px;
+	width: 200px;
+}
+
+.mountain-picture{
+	background: url("https://assets.rbl.ms/6461854/980x.jpg") no-repeat center center; 
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	height: 100px;
+  	min-width: 1000px;	
+  	margin: 0;
+  	padding: 350px 0;
+}
+
+.blue-background{
+	width: 100%;
+	background-color: #F0F6F6;
+}
