@@ -1,0 +1,47 @@
+html, body{
+	height: 100%;
+	margin: 0;
+}
+
+#board{
+	min-height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+#board > div:nth-child(1){
+	display: flex;
+	flex-basis: calc(50% - 40px);
+	justify-content: center;
+	margin: 20px;
+	flex-direction: column;
+	background-color: green;
+}
+
+#board > div:nth-child(2){
+	display: flex;
+	flex-basis: calc(50% - 40px);
+	justify-content: center;
+	margin: 20px;
+	flex-direction: column;
+	background-color: red;
+}
+
+#board > div:nth-child(3){
+	display: flex;
+	flex-basis: calc(50% - 40px);
+	justify-content: center;
+	margin: 20px;
+	flex-direction: column;
+	background-color: yellow;
+}
+
+#board > div:nth-child(4){
+	display: flex;
+	flex-basis: calc(50% - 40px);
+	justify-content: center;
+	margin: 20px;
+	flex-direction: column;
+	background-color: blue;
+}
