@@ -1,0 +1,22 @@
+body{
+	background-color: #F44336;
+}
+
+h1{
+	text-align: center;
+	border: 2px solid black;
+}
+
+nav{
+	margin-top: 10%;
+}
+a{
+	font-size: 20px;
+	text-transform: capitalize;
+	text-decoration: none;
+	border: 2px solid black;
+	margin-left: 25%;
+	border-radius: 25%;
+	color: white;
+	background-color: black;
+}

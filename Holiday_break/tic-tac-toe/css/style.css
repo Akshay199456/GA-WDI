@@ -1,0 +1,122 @@
+body{
+}
+
+main{
+	margin-top: 1.25%;
+	margin-left: 17.5%;
+}
+
+div{
+	height: 175px;
+	width: 25%;
+	border-radius: 2.5%;
+	display: inline-block;
+	border: 2px solid black;
+	background-color: #E0020F;
+}
+
+button{
+	margin-left: 25.5%;
+	margin-top: 3.5%;
+	border-radius: 10%;
+	font-size: 18px;
+	text-transform: uppercase;
+	background-color: black;
+	color: white;
+	font-family: 'Noto Serif', serif;
+	/*border: 2px solid #FFDC00;*/
+}
+
+img{
+	height: 175px;
+	width: 100%;
+}
+
+.playerButtons{
+	margin-left: 2.5%;
+}
+
+.togglePlayer{
+	background-color: #FF7F50;
+	color: white;
+}
+
+
+
+
+
+
+
+
+/* Modal code */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #F44336;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/*---------------------------*/
+main p{
+	text-align: center;
+	background-color: white;
+	padding-top: 25px;
+	font-family: 'Crimson Text', serif;
+	font-size: 35px;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+main span{
+	margin-top: -20px;
+}
+
+
+/*------------------*/
+
+
+/*Navbar*/
+nav{
+	margin-top: 5%;
+}
+a{
+	font-size: 20px;
+	text-transform: capitalize;
+	text-decoration: none;
+	border: 2px solid black;
+	margin-left: 25%;
+	border-radius: 25%;
+	color: white;
+	background-color: black;
+}

@@ -1,0 +1,31 @@
+body{
+	background-color: #F44336;
+}
+
+nav{
+	margin-top: 5%;
+}
+a{
+	font-size: 20px;
+	text-transform: capitalize;
+	text-decoration: none;
+	border: 2px solid black;
+	margin-left: 25%;
+	border-radius: 25%;
+	color: white;
+	background-color: black;
+}
+
+h1{
+	text-align: center;
+	border: 2px solid black;
+}
+
+p{
+/*	text-align: center;*/
+	font-size: 18px;
+}
+
+main{
+	margin-top: 80px;
+}
