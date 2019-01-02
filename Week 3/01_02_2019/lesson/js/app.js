@@ -37,8 +37,6 @@ playAgainBtn.addEventListener("click", init);
 
 /*----- functions -----*/
 
-init();
-
 function handleClick(event){
 	// determine the index of the clicked div
 
