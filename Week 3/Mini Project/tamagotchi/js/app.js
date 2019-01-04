@@ -1,3 +1,5 @@
+//Redo this mini-project to make it look like a tomagochi
+
 /*----- cached element references -----*/ 
 const stats = Array.from(document.querySelector(".petStats").children);
 const image = document.querySelector("img");
