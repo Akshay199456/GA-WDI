@@ -1,0 +1,106 @@
+*{
+	font-family: 'Lucida Grande', Helvetica;
+}
+
+html{
+	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+main{
+	min-width: 860px;
+}
+
+button{
+	border: 2px solid black;
+	border-radius: 50%;
+	margin: 10px;
+	background-color:  #E9467E;
+}
+
+section{
+	position: absolute;
+	right: 92.5px;
+	top: 20px;
+	border-radius: 20%;
+}
+
+/*main div{
+	heigh
+}*/
+
+.petImage h1{
+	text-align: center;
+	color: white;
+}
+
+.petImage img{
+	width: 200px;
+	height: 150px;
+	top: 220px;
+	left: 80px;
+	position: absolute;
+	z-index: 2;
+}
+
+.layout{
+	height: 250px;
+	position: relative;
+/*	border-radius: 2.5%;*/
+	width: 25%;	
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	top: -120px;
+	left: 37px;
+}
+
+.petImage{
+	/*background-color: red;*/
+	height: 500px;
+	width: 400px;
+	border-radius: 50%;
+	margin: 0 auto;	
+	position: relative;
+}
+
+.petStats{
+	position: absolute;
+	text-transform: capitalize;
+	right: -150px;
+	top: 60px;
+	font-weight: bold;
+	font-size: 15px;
+	color: blue;
+	border: 2px solid black;
+	border-radius: 10%;
+	width: 175px;
+	text-align: center;
+
+}
+
+.tamagotchiHeader{
+	text-align: center;
+	font-family: 'Finger Paint', cursive;
+	font-size: 23px;
+	text-transform: uppercase;
+	color: #EC008B;
+	position: absolute;
+	margin-bottom: 90px;
+	left: 545px;
+	top: 150px;
+	z-index: 1;
+
+}
+
+.tamagotchiContainer{
+	height: 500px;
+	width: 300px;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 90px;
+	left: 30px;
+	background-color: blue;
+	z-index: 0;
+}
