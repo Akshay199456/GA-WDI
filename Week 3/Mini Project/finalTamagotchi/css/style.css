@@ -66,7 +66,6 @@ section{
 
 .petStats{
 	position: absolute;
-	text-transform: capitalize;
 	right: -150px;
 	top: 60px;
 	font-weight: bold;
@@ -76,6 +75,7 @@ section{
 	border-radius: 10%;
 	width: 175px;
 	text-align: center;
+	text-transform: capitalize;
 
 }
 
