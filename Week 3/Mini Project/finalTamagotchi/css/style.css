@@ -12,9 +12,15 @@ main{
 
 button{
 	border: 2px solid black;
+	height: 25px;
 	border-radius: 50%;
 	margin: 10px;
 	background-color:  #E9467E;
+}
+
+button:hover{
+	background-color: black;
+	color: #E9467E;
 }
 
 section{
@@ -28,6 +34,12 @@ section{
 	heigh
 }*/
 
+.modify-name{
+	position: absolute;
+	left: 92.5px;
+}
+
+
 .petImage h1{
 	text-align: center;
 	color: white;
@@ -36,10 +48,21 @@ section{
 .petImage img{
 	width: 200px;
 	height: 150px;
-	top: 220px;
-	left: 80px;
+	top: 0px;
+	left: 0px;
 	position: absolute;
 	z-index: 2;
+}
+
+.gif-container{
+	position: absolute;
+	border: 2px solid black;
+	width: 200px;
+	height: 150px;
+	z-index: 1;
+	background-color: white;
+	left: 80px;
+	top: 215px;
 }
 
 .layout{
@@ -52,7 +75,7 @@ section{
 	align-items: center;
 	justify-content: space-around;
 	top: -120px;
-	left: 37px;
+	left: 40px;
 }
 
 .petImage{
@@ -82,12 +105,12 @@ section{
 .tamagotchiHeader{
 	text-align: center;
 	font-family: 'Finger Paint', cursive;
-	font-size: 23px;
+	font-size: 25px;
 	text-transform: uppercase;
 	color: #EC008B;
 	position: absolute;
 	margin-bottom: 90px;
-	left: 545px;
+	left: 542px;
 	top: 150px;
 	z-index: 1;
 

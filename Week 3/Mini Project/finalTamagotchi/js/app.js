@@ -120,7 +120,7 @@ function renderContinously(){
 	// Change images depending on the age of the cat
 	let age = petObject.getAge();
 	if(age===4 && age<8){
-		image.src = "images/tamagotchi/oyajitchi.gif";
+		image.src = "images/tamagotchi/marutchi.gif";
 		if(animationCount === 0){
 			addAnimation("transition.perspectiveUpIn");
 			animationCount++;
@@ -132,7 +132,7 @@ function renderContinously(){
 	}
 
 	else if(age===8 && age<24){
-		image.src = "images/tamagotchi/tarakotchi.gif";
+		image.src = "images/tamagotchi/kuchitamatchi.gif";
 		if(animationCount === 0){
 			addAnimation("transition.perspectiveUpIn");
 			animationCount++;
@@ -145,7 +145,7 @@ function renderContinously(){
 
 
 	else if(age===24 && age<52){
-		image.src = "images/tamagotchi/kuchipatchi.gif";
+		image.src = "images/tamagotchi/ginjirotchi.gif";
 		if(animationCount === 0){
 			addAnimation("transition.perspectiveUpIn");
 			animationCount++;
@@ -157,7 +157,7 @@ function renderContinously(){
 	}
 
 	else if(age===52){
-		image.src = "images/tamagotchi/ginjirotchi.gif";
+		image.src = "images/tamagotchi/kuchipatchi.gif";
 		if(animationCount === 0){
 			addAnimation("transition.perspectiveUpIn");
 			animationCount++;
@@ -238,7 +238,7 @@ function buttonClick(event){
 
 // Adds the given animation to the image element
 function addAnimation(animationType){
-	Velocity(document.querySelector("img"),animationType,{
+	Velocity(image,animationType,{
 				duration: 2000,
 				loop: false
 	});
